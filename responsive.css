@@ -1,0 +1,334 @@
+/*Responsiveness*/
+@media only screen and (max-width:768px) {
+    .page1, .page2, .page3, .page4, .page5 .page6 {
+        width: 100%;
+    }
+    .page6, .page5 {
+        display: none;
+    }
+    .page1 {
+        height: 100vh;
+    }
+    .top-navbar{
+        width: 100%;
+    }
+    .right-link {
+        margin-right: 20px;
+    }
+    .woogency-heading{
+        width: 100%;
+        font-size: 7em;
+    }
+    .links-container{
+        width: 60%;
+        text-align: center;
+        margin-top: -10px;
+        margin-left: 100px;
+        margin-right: 25px;
+    }
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        float: none;
+    }
+
+    .text-container {
+        width: 100%;
+        float: none;
+        justify-content: center;
+    }
+    .Objective-heading {
+        margin-top: -100px;
+        text-align: center;
+        line-height: 25px;
+        font-size: 2em;
+        position: absolute;
+
+        
+    }
+    .objective{
+        text-align: center;
+        margin-top: -25px;
+        margin-bottom: 100px;
+        position: absolute;
+    }
+    .image1 {
+        height: 150px;
+        width: 98%;
+        float: none;
+        display: block;
+        margin: 0 auto;
+        margin-left: -550px;
+        margin-bottom: -100px;
+        margin-right: 20px;
+        margin-top: 100px;
+        justify-self: center;
+    }
+
+    .contact-btn1 {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 70px;
+        margin-left: 40%;
+        text-align: center;
+    }
+
+    .bottom-navbar {
+        position: relative;
+        margin-top: 200px ;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-size: 1em;
+    }
+    
+    
+    .page2 {
+        height: 150vh;
+    }
+
+    .page2-heading {
+        text-align: center;
+        font-size: 4.5em;
+        line-height: 70px;
+        margin-bottom: -50px;
+    }
+
+    
+    .content2 {
+            display: block;
+            align-items: center;
+            font-size: 0.9em;
+            padding: 20px;
+    }
+
+    .content-section {
+        float: none;
+        display: block;
+        margin: 0 auto;
+
+    }
+    #content1 {
+        margin-top: 150px;
+        border: none;
+    }
+
+    #content2 {
+        border: none;
+    }
+
+    h2, .para-page2 {
+        text-align: center;  
+    }
+
+    .para-page2 {
+        font-size: 1em;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 15px;
+    }
+    .img2 {
+        display: block;
+        justify-content: center;
+    }
+    #img2 {
+        height: 100px;
+        width: 75%;
+        border-radius: 0%;
+        margin-left: 12%;
+    }
+    .action-button {
+        display: none;
+    }
+
+    .page5 {
+        height: 100vh;
+    }
+    .outer-box {
+        text-align: center;
+
+    }
+    .inner-box {
+        text-align: center;
+        margin: auto;
+        max-width: 90%;
+    }
+    .big-heading {
+        font-size: 3.5em;
+        text-align: center;
+        width: 100%;
+    }
+    .img3 {
+        max-width: 100%;
+        float: none;
+        height: auto;
+        display: block;
+        margin: auto;
+      }
+      
+      .big-paragraph {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+      }
+      
+      .align-right-button {
+        float: none;
+        margin-top: -500px;
+      }
+
+      .page3 {
+        display: block;
+        background-color: black;
+        color: white;
+        height: 150vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .page3-sec1{
+        height: 50vh;
+        width: 100%;
+      }
+      .page3-heading {
+        font-size: 3em;
+        text-align: center;
+        line-height: 7px;
+        margin-top: 15px ;
+      }
+      
+      .industries {
+        font-size: 1.3em;
+        text-align: center;
+        margin-top: 80px ;
+      }
+      
+      .navigation-page3 {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      
+      .navigation-page3 button {
+        margin: 0 10px;
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+        border: 1px solid white;
+        border-radius: 50px;
+        cursor: pointer;
+      }
+      
+      .out-box {
+        display: flex;
+        margin-top: 50px;
+        width: 90%;
+        height: 80vh;
+        justify-content: center;
+      }
+      
+      .in-box {
+        background: linear-gradient(to right, #fff, rgb(105, 136, 204));
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-right: 25px solid black;
+        border-left: 25px solid black;
+        padding: 20px;
+        width: 85%;
+        height: 74vh;
+        
+      }
+      
+      .in-box .content-page3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .in-box .content-page3 {
+        margin-bottom: 20px;
+        font-size: 1em;
+      }
+      
+      .in-box .content-page3{
+        margin-bottom: 20px;
+      }
+      
+      .in-box .content-page3 .arrow {
+        font-size: 2em;
+        margin-bottom: 20px;
+        margin-top: -10px;
+      }
+      
+      .in-box .pc {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .button-below {
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: chartreuse;
+        color: rgb(0, 0, 0);
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+      }
+    
+      .star {
+        text-align: center;
+        font-size: 5em;
+        margin-top: -10px;
+      }
+    
+      #star {
+        height: 50px;
+        width: 50px;
+        margin-top: -50px;
+    }
+    .web {
+      margin-top: -50px;
+        text-align: center;
+        font-size: 1em;
+        font-weight: bolder;
+    }
+    .lorem{
+        margin: 20px;
+        margin-bottom: 80px;
+        padding: auto;
+        font-size: 1.2em;
+    }
+    .arrow {
+        text-align: center;
+        margin-bottom: auto;
+    }
+    .icon-1 {
+        padding: 10px 20px;
+        background-color: rgb(0, 0, 0);
+        color: chartreuse;
+        border: none;
+        border-radius: 50%;
+        cursor: pointer;
+    
+    }
+    
+    .pc {
+      text-align: center ;
+    }
+    
+    #pc {
+        height: 150px;
+        width: 200px;
+    }
+
+
+}
